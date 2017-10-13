@@ -6,7 +6,7 @@ angular.module("GPcal",[])
     $scope.student = []
     $scope.qpoint = [];
     $scope.addInput = function (){
-        if ($scope.unit >=1 && $scope.unit <=3) {
+        if ($scope.unit >=0 && $scope.unit <=3) {
             /*if ($scope.grade == "A" || $scope.grade == "a") {
                 var point = $scope.unit * 5;
             }else if ($scope.grade == "B" || $scope.grade == "b") {
